@@ -1,0 +1,5 @@
+The directory structured you created 
+permission before and after (with the ls -l outputs)
+Ownerships details
+The unmask value and how it affected new file permissions
+1-2 sentences explaining how permissions protect projects data (e.g., restricting group/others from writing prevents unauthorized changes tp project files)
