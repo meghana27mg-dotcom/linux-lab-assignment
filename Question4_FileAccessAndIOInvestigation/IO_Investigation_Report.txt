@@ -1,0 +1,1 @@
+Include your findings (open files, file descriptors, redirection results — including this error redirection you just did — and resource limits), plus the explanation of Linux file I/O.
