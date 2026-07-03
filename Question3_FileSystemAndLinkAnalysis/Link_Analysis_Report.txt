@@ -1,0 +1,5 @@
+Inode numbers of original.txt, hardlink.txt, and symlink.txt (from your screenshots)
+Comparison: hard link shares inode with original; symlink has its own inode and just stores a path
+Effect of deleting original: hard link still accessible (data persists as long as link count > 0); symlink breaks (dangling reference)
+Metadata observed via stat/file (inode, link count, file type)
+Conclusion: hard links point directly to data on disk (same filesystem only), symlinks are just pointers to a path (can cross filesystems, but break if target is removed)
