@@ -1,0 +1,19 @@
+Storage Health Assessment Report
+
+1. Available Storage Devices:
+[paste your lsblk output details here]
+
+2. Mounted File Systems:
+[paste your mount/df -h details here]
+
+3. Disk Usage Statistics:
+[paste your df -h output here]
+
+4. Inode Utilization:
+[paste your df -i output here]
+
+5. Storage Health Observations:
+[your observations]
+
+6. Recommendations:
+[your recommendations]
