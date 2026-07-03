@@ -1,0 +1,29 @@
+=== ENVIRONMENT REPORT ===
+
+--- Username & Groups ---
+meghana27mg
+uid=1000(meghana27mg) gid=1000(meghana27mg) groups=1000(meghana27mg),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+meghana27mg adm cdrom sudo dip plugdev users
+
+--- Current Shell ---
+/bin/bash
+
+--- Current Working Directory ---
+/home/meghana27mg/linux_lab_assignment/Question1_LinuxEnvironmentVerification
+
+--- Files and Directories ---
+total 12
+drwxr-xr-x 2 meghana27mg meghana27mg 4096 Jul  3 12:01 .
+drwxr-xr-x 3 meghana27mg meghana27mg 4096 Jul  3 11:53 ..
+-rw-r--r-- 1 meghana27mg meghana27mg  414 Jul  3 12:01 Environment_Report.txt
+
+--- Network Connectivity ---
+PING google.com (142.250.67.46) 56(84) bytes of data.
+64 bytes from pnmaaa-bb-in-f14.1e100.net (142.250.67.46): icmp_seq=1 ttl=112 time=143 ms
+64 bytes from pnmaaa-bb-in-f14.1e100.net (142.250.67.46): icmp_seq=2 ttl=112 time=104 ms
+64 bytes from pnmaaa-bb-in-f14.1e100.net (142.250.67.46): icmp_seq=3 ttl=112 time=125 ms
+64 bytes from pnmaaa-bb-in-f14.1e100.net (142.250.67.46): icmp_seq=4 ttl=112 time=105 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 103.888/119.213/142.871/15.983 ms
